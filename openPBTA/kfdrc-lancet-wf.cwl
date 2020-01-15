@@ -1,6 +1,6 @@
 class: Workflow
 cwlVersion: v1.0
-id: kfdrc-harmonization/pbta-lancet-vardict-analysis/kfdrc-lancet-wf/1
+id: cavatica/openpbta-tcga/kfdrc-lancet-wf-baminput/0
 label: kfdrc-lancet-wf
 $namespaces:
   sbg: 'https://sevenbridges.com'
@@ -23,8 +23,6 @@ inputs:
     'sbg:y': 856
   - id: input_normal_aligned
     type: File
-    secondaryFiles:
-      - .crai
     'sbg:x': 0
     'sbg:y': 749
   - id: input_normal_name
@@ -33,8 +31,6 @@ inputs:
     'sbg:y': 521
   - id: input_tumor_aligned
     type: File
-    secondaryFiles:
-      - .crai
     'sbg:x': 0
     'sbg:y': 642
   - id: input_tumor_name
@@ -714,33 +710,28 @@ hints:
     value: 4
 requirements:
   - class: ScatterFeatureRequirement
+'sbg:image_url': >-
+  https://cavatica.sbgenomics.com/ns/brood/images/cavatica/openpbta-tcga/kfdrc-lancet-wf-baminput/0.png
+'sbg:projectName': openPBTA-TCGA
+'sbg:revisionsInfo':
+  - 'sbg:revision': 0
+    'sbg:modifiedBy': kogantit
+    'sbg:modifiedOn': 1578935248
+    'sbg:revisionNotes': Copy of kogantit/teja-workspace/kfdrc-lancet-wf/7
 'sbg:appVersion':
   - v1.0
-'sbg:id': kfdrc-harmonization/pbta-lancet-vardict-analysis/kfdrc-lancet-wf/1
-'sbg:revision': 1
-'sbg:revisionNotes': Copy of zhangb1/kf-somatic-tools-test/kfdrc-lancet-wf/8
-'sbg:modifiedOn': 1568745737
-'sbg:modifiedBy': ennisb
-'sbg:createdOn': 1567627166
-'sbg:createdBy': ennisb
-'sbg:project': kfdrc-harmonization/pbta-lancet-vardict-analysis
-'sbg:projectName': PBTA-Lancet-Vardict-analysis
+'sbg:id': cavatica/openpbta-tcga/kfdrc-lancet-wf-baminput/0
+'sbg:revision': 0
+'sbg:revisionNotes': Copy of kogantit/teja-workspace/kfdrc-lancet-wf/7
+'sbg:modifiedOn': 1578935248
+'sbg:modifiedBy': kogantit
+'sbg:createdOn': 1578935248
+'sbg:createdBy': kogantit
+'sbg:project': cavatica/openpbta-tcga
 'sbg:sbgMaintained': false
 'sbg:validationErrors': []
 'sbg:contributors':
-  - ennisb
-'sbg:latestRevision': 1
-'sbg:revisionsInfo':
-  - 'sbg:revision': 0
-    'sbg:modifiedBy': ennisb
-    'sbg:modifiedOn': 1567627166
-    'sbg:revisionNotes': Copy of zhangb1/kf-somatic-tools-test/kfdrc-lancet-wf/6
-  - 'sbg:revision': 1
-    'sbg:modifiedBy': ennisb
-    'sbg:modifiedOn': 1568745737
-    'sbg:revisionNotes': Copy of zhangb1/kf-somatic-tools-test/kfdrc-lancet-wf/8
-'sbg:image_url': >-
-  https://cavatica.sbgenomics.com/ns/brood/images/kfdrc-harmonization/pbta-lancet-vardict-analysis/kfdrc-lancet-wf/1.png
+  - kogantit
+'sbg:latestRevision': 0
 'sbg:publisher': sbg
-'sbg:content_hash': a697be4253b64a56660c3cdd39507e63cf4558ec06206d7134f688dfbc72ea50b
-'sbg:copyOf': zhangb1/kf-somatic-tools-test/kfdrc-lancet-wf/8
+'sbg:content_hash': a50fcf86276a75bbd1edac6114f9727786da6848aafd32377e137d56b0d798bdf

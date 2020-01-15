@@ -63,6 +63,12 @@ This is a central repository to organize publication-related workflows for maxim
  - Major tools: strelka2 v2.9.3, mutect2 (GATK) v4.1.1.0
  - Major inputs: fasta reference, aligned cram/bam
 
+### openPBTA/kfdrc-single-genotype-basic.cwl
+ - Assay types: DNA, WGS, WXS
+ - Analysis types: Germline mutations
+ - Major tools: GATK v4.0.12.0
+ - Major inputs: fasta reference, aligned cram/bam
+
 ### openPBTA/kfdrc-vardict-wf.cwl
  - Assay types: DNA, WGS, WXS
  - Analysis types: Somatic mutations
