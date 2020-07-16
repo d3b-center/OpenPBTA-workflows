@@ -328,6 +328,3 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
-
-#remove .DS_Store
-*.DS_Store
