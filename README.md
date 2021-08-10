@@ -74,6 +74,12 @@ This is a central repository to organize publication-related workflows for maxim
  - Analysis types: Somatic mutations
  - Major tools: VarDict Java v1.5.8
  - Major inputs: fasta reference, aligned cram/bam
+ 
+ ### cwl/kfdrc_annot_vcf_sub_wf.cwl
+ - Assay types: DNA, WGS, WXS
+ - Analysis types: Somatic mutations
+ - Major tools: VEP, bcftools
+ - Major inputs: pass VCF
 
 ### bash/run-gistic.sh
  - Assay types: DNA, WGS
