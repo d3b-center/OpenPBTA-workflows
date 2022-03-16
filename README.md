@@ -1,4 +1,6 @@
 # OpenPBTA-workflows
+[![DOI](https://zenodo.org/badge/225902612.svg)](https://zenodo.org/badge/latestdoi/225902612)
+
 This is a central repository to organize publication-related workflows for maximum reproducibility of results.
 
 ## Quick summary of usages
