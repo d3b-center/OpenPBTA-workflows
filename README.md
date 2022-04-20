@@ -82,7 +82,13 @@ This is a central repository to organize publication-related workflows for maxim
  - Analysis types: Somatic mutations
  - Major tools: VEP, bcftools
  - Major inputs: pass VCF
-
+ 
+ ### bcf_call.cwl
+ - Assay types: DNA, RNA, WGS, WXS
+ - Analysis type: QC
+ - Major tools: bcftools, NGScheckmate
+ - Major inputs: CRAM, VCF
+ 
 ### bash/run-gistic.sh
  - Assay types: DNA, WGS
  - Analysis types: gene-level copy number
