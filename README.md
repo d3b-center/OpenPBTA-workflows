@@ -83,26 +83,20 @@ This is a central repository to organize publication-related workflows for maxim
  - Major tools: VarDict Java v1.5.8
  - Major inputs: fasta reference, aligned cram/bam
  
- ### cwl/kfdrc_annot_vcf_sub_wf.cwl
+### cwl/kfdrc_annot_vcf_sub_wf.cwl
  - Assay types: DNA, WGS, WXS
  - Analysis types: Somatic mutations
  - Major tools: VEP, bcftools
  - Major inputs: pass VCF
  
- ### bcf_call.cwl
+### cwl/bcf_call.cwl
  - Assay types: DNA, RNA, WGS, WXS
  - Analysis type: QC
  - Major tools: bcftools, NGScheckmate
  - Major inputs: CRAM, VCF
- 
-### bash/run-gistic.sh
- - Assay types: DNA, WGS
- - Analysis types: gene-level copy number
- - Major tools: GISTIC v.2.0.23
- - Major inputs: CNVkit seg file, hg38.UCSC.add_miR.160920.refgene.mat
 
-### bash/run_gistic_consensus.sh
+### cwl/annotsv.cwl
  - Assay types: DNA, WGS
- - Analysis types: gene-level copy number
- - Major tools: GISTIC v.2.0.23
- - Major inputs: OpenPBTA consensus seg file, hg38.UCSC.add_miR.160920.refgene.mat
+ - Analysis type: Annotation
+ - Major tools: AnnotSV
+ - Major inputs: Manta SV output (TSV)
