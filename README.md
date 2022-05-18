@@ -89,7 +89,7 @@ This is a central repository to organize publication-related workflows for maxim
  - Major tools: bcftools, NGScheckmate
  - Major inputs: CRAM, VCF
 
-### annotSV/annotsv.cwl, annotsv-wf.cwl, DockerFile
+### cwl/annotsv.cwl
  - Assay types: DNA, WGS
  - Analysis type: Annotation
  - Major tools: AnnotSV
