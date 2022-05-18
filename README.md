@@ -18,10 +18,16 @@ This is a central repository to organize publication-related workflows for maxim
  - Major inputs: fasta reference, aligned cram/bam
 
 ### cwl/kfdrc_RNAseq_workflow.cwl
- - Assay types: DNA
+ - Assay types: RNA
  - Analysis types: RNA expression, RNA fusion
  - Major tools: STAR aligner v2.6.1d, rsem v1.3.1, STAR-Fusion v1.5.0, Arriba v1.1.0
  - Major inputs: fasta reference, GENCODE gtf, Star Index, Fusion Reference, input reads as fastq or bam
+
+### cwl/fusion_annotator.cwl
+ - Assay types: RNA
+ - Analysis types: RNA fusion
+ - Major tools: FusionAnnotator
+ - Major inputs: called fusion tsv, CTAT STAR Fusion reference
 
 ### cwl/kfdrc-alignment-cram-only-wf.cwl
  - Assay types: DNA, WGS, WXS
