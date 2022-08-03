@@ -100,3 +100,15 @@ This is a central repository to organize publication-related workflows for maxim
  - Analysis type: Annotation
  - Major tools: AnnotSV
  - Major inputs: Manta SV output (TSV)
+
+### cwl/annovar_20190319.cwl
+ - Assay types: DNA, WGS
+ - Analysis typs: Annotation
+ - Major tools: Annovar
+ - Major inputs: Single sample genotyped vcf
+
+### cwl/clinvar_pathogenic_filter.cwl
+ - Assay types: DNA, WGS
+ - Analysis typs: Annotation
+ - Major tools: snpSift, bcftools
+ - Major inputs: annovar-called single germline sample
