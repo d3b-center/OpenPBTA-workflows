@@ -101,7 +101,7 @@ This is a central repository to organize publication-related workflows for maxim
  - Major tools: AnnotSV
  - Major inputs: Manta SV output (TSV)
 
-### cwl/annovar_20190319_yiran.cwl
+### cwl/annovar_20190319.cwl
  - Assay types: DNA, WGS
  - Analysis typs: Annotation
  - Major tools: Annovar
